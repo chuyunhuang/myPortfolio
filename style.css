@@ -1,0 +1,43 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.jumbotron{
+ min-height: 100vh;
+ background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+}
+
+.display-4{
+  margin-top: 20px;
+}
+
+.profile-img{
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  margin-top:10px;
+}
+
+.icon{
+  width: 30px;
+  height: 30px;
+}
+
+.project-cards{
+  max-width: 100vw;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: center;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card{
+  justify-content:space-around;
+  margin:10px;
+}
