@@ -7,12 +7,20 @@
 
 
 .jumbotron{
- min-height: 100vh;
+ min-height: 90vh;
  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
 }
 
 .display-4{
   margin-top: 20px;
+}
+
+.lead{
+  font-size:1rem;
+}
+
+.extra-padding{
+  padding-left: 2rem;
 }
 
 .profile-img{
@@ -41,4 +49,16 @@
 .card{
   justify-content:space-around;
   margin:10px;
+}
+
+.external-links{
+  display: flex;
+  width:20%;
+  justify-content: space-around;
+  margin-left:30px;
+}
+
+.animation{
+  font-weight: 800;
+  font-size: 1rem;
 }
